@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('/Users/vedantbrahmbhatt/Desktop/Netflix_EDA/netflix_movies .csv')
+df = pd.read_csv('netflix_movies .csv')
 
 df = df.drop_duplicates(subset='show_id', keep='first')
 
